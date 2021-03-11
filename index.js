@@ -35,9 +35,7 @@ exports.DiscordApi = class {
         this._instance.post(`channels/${channelId}/messages`, {
             tts: false,
             content
-        })
-            .then(() => console.log(`send content: ${content} ${`channels/${channelId}/messages`}`))
-            .catch((e) => console.error(`content didnt send: ${content}; ${`channels/${channelId}/messages`} \n ${e}`));
+        });
 
     deleteMessageFromChannel = (channelId, messageId) =>
         this._instance.delete(`channels/${channelId}/messages/${messageId}`);
