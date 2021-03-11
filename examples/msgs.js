@@ -17,6 +17,6 @@ Array.prototype.shaffle = function() {
     const t = setInterval(() => {
         const msg = msgs.pop();
         if (!msg) return clearInterval(t);
-        d.sendMessageToChannel(channelId, `-p ${msg}`);
+        d.sendMessageToChannel(channelId, msg);
     }, 5000);
 })();
