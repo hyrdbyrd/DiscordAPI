@@ -30,3 +30,8 @@ ___
 ## Docs?
 
 This lib is simply as can. Just read the [code](/index.js)
+
+## TODO
+
+* add more methods for discord (maybe voice?)
+* find way for fix auth error (help me 😭)
