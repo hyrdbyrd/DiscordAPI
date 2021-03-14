@@ -1,5 +1,6 @@
 {
-  "name": "discord-api",
+  "name": "discord-short-api",
+  "homepage": "https://github.com/hyrdbyrd/DiscordApi",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
