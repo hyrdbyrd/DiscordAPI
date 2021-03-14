@@ -23,6 +23,8 @@ ___
 
 If you want to try something with this lib, check [exmaples](/examples)
 
+If you pulled github repo, create .env file, add your meta, and try any example
+
 ___
 
 ## Docs?
