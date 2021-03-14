@@ -27,6 +27,8 @@ const loggingDecorator = (() => {
 })();
 
 exports.DiscordApi = class {
+    _instance = axios.create({ baseURL: API_HOST });
+
     constructor(email, password, host = API_HOST) {
         this._host = host;
 
